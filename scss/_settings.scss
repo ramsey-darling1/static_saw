@@ -49,7 +49,8 @@ $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #2199e8,
+  //primary: #2199e8,
+  primary: #A0D468,
   secondary: #777,
   success: #3adb76,
   warning: #ffae00,
@@ -72,6 +73,21 @@ $global-radius: 0;
 $global-text-direction: ltr;
 $global-flexbox: false;
 $print-transparent-backgrounds: true;
+
+//Custom colors for saw chart
+$required: #4A89DC;
+$recom: #5D9CEC;
+$important: #F6BB42;
+$optional: #FFCE54;
+$phase-1: #ED5565;
+$phase-2: #E9573F;
+$phase-3: #37BC9B;
+$phase-4: #8CC152;
+$phase-5: #3BAFDA;
+$phase-6: #967ADC;
+$phase-7: #656D78;
+$phase-8: #D770AD;
+$phase-9: $black;
 
 @include add-foundation-colors;
 

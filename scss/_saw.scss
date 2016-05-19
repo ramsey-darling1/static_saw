@@ -1,0 +1,86 @@
+/**
+ * Styles for SAW Chart
+ * @rdarling
+ *
+ */
+
+.dissapear {display:none;}
+
+
+.phase-wrap {
+
+    .phase-title-wrap {
+        margin-bottom: 2rem;
+
+        h2 {
+            color: $white; 
+        } 
+    }
+
+    &.phase-1 {
+        .phase-title-wrap {
+            background: $phase-1; 
+        } 
+    }
+    &.phase-2 {
+        .phase-title-wrap {
+            background: $phase-2; 
+        } 
+    }
+    &.phase-3 {
+        .phase-title-wrap {
+            background: $phase-3; 
+        } 
+    }
+    &.phase-4 {
+        .phase-title-wrap {
+            background: $phase-4; 
+        } 
+    }
+    &.phase-5 {
+        .phase-title-wrap {
+            background: $phase-5; 
+        } 
+    }
+    &.phase-6 {
+        .phase-title-wrap {
+            background: $phase-6; 
+        } 
+    }
+    &.phase-7 {
+        .phase-title-wrap {
+            background: $phase-7; 
+        } 
+    }
+    &.phase-8 {
+        .phase-title-wrap {
+            background: $phase-8; 
+        } 
+    }
+    &.phase-9 {
+        .phase-title-wrap {
+            background: $phase-9; 
+        } 
+    }
+}
+
+.component-wrap {
+    padding: 2rem;
+    margin-bottom:2rem;
+    max-width: 1160px;
+    margin-left:auto;
+    margin-right: auto;
+
+    &.required {
+        background: $required; 
+    }
+    &.recom {
+        background: $recom; 
+    }
+    &.important {
+        background: $important; 
+    }
+    &.optional {
+        background: $optional; 
+    }
+}

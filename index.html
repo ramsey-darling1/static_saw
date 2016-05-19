@@ -5,6 +5,7 @@
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Saw Chart</title>
+<link rel="stylesheet" href="css/font-awesome.min.css">
 <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
@@ -19,24 +20,96 @@
 </div>
 </header>
 <main>
-<div class="component-wrap">
+<div class="phase-wrap phase-1">
+    <div class="phase-title-wrap">
+        <div class="row">
+            <div class="small-10 columns">
+                <h2>Initial Phase</h2>
+            </div>
+            <div class="small-2 columns">
+                <p class="phase-trigger" data-phase="1">
+                    <i class="fa fa-angle-down"></i>
+                </p>
+            </div>
+        </div>
+    </div> 
+    <!--phase 1 components-->
+<div class="component-wrap required">
     <div class="row">
         <div class="small-10 columns">
-            <div class="component">
+            <div class="component small">
                 <div class="title">Design</div> 
             </div>
         </div>
         <div class="small-2 columns">
             <div class="component-trigger">
                 <div class="switch">
-                    <input class="switch-input" id="exampleSwitch" type="checkbox" name="exampleSwitch">
-                    <label class="switch-paddle" for="exampleSwitch">
+                    <input class="switch-input" id="switch_0" type="checkbox" name="switch_0">
+                    <label class="switch-paddle" for="switch_0">
                         <span class="show-for-sr">Activate</span>
                     </label>
                 </div>
             </div>
         </div>
     </div>
+</div>
+<div class="component-wrap recom">
+    <div class="row">
+        <div class="small-10 columns">
+            <div class="component med client">
+                <div class="title">Branding</div> 
+            </div>
+        </div>
+        <div class="small-2 columns">
+            <div class="component-trigger">
+                <div class="switch">
+                    <input class="switch-input" id="switch_1" type="checkbox" name="switch_1">
+                    <label class="switch-paddle" for="switch_1">
+                        <span class="show-for-sr">Activate</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="component-wrap important">
+    <div class="row">
+        <div class="small-10 columns">
+            <div class="component large repeat">
+                <div class="title">Development</div> 
+            </div>
+        </div>
+        <div class="small-2 columns">
+            <div class="component-trigger">
+                <div class="switch">
+                    <input class="switch-input" id="switch_2" type="checkbox" name="switch_2">
+                    <label class="switch-paddle" for="switch_2">
+                        <span class="show-for-sr">Activate</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="component-wrap optional">
+    <div class="row">
+        <div class="small-10 columns">
+            <div class="component med">
+                <div class="title">Deployment</div> 
+            </div>
+        </div>
+        <div class="small-2 columns">
+            <div class="component-trigger">
+                <div class="switch">
+                    <input class="switch-input" id="switch_3" type="checkbox" name="switch_3">
+                    <label class="switch-paddle" for="switch_3">
+                        <span class="show-for-sr">Activate</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </div>
 </main>
 <footer>
