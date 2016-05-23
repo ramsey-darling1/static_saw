@@ -5,7 +5,7 @@
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Saw Chart</title>
-<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
@@ -20,6 +20,10 @@
 </div>
 </header>
 <main>
+<div class="total-bid">
+    <div class="low-end"></div>
+    <div class="high-end"></div>
+</div>
 <div class="phase-wrap phase-1">
     <div class="phase-title-wrap">
         <div class="row">
@@ -44,8 +48,8 @@
         <div class="small-2 columns">
             <div class="component-trigger">
                 <div class="switch">
-                    <input class="switch-input" id="switch_0" type="checkbox" name="switch_0">
-                    <label class="switch-paddle" for="switch_0">
+                    <input class="switch-input" id="switch_0" type="checkbox" name="switch_0" data-issue-type="small">
+                    <label class="switch-paddle" for="switch_0" >
                         <span class="show-for-sr">Activate</span>
                     </label>
                 </div>
@@ -63,7 +67,7 @@
         <div class="small-2 columns">
             <div class="component-trigger">
                 <div class="switch">
-                    <input class="switch-input" id="switch_1" type="checkbox" name="switch_1">
+                    <input class="switch-input" id="switch_1" type="checkbox" name="switch_1" data-issue-type="med">
                     <label class="switch-paddle" for="switch_1">
                         <span class="show-for-sr">Activate</span>
                     </label>
@@ -82,7 +86,7 @@
         <div class="small-2 columns">
             <div class="component-trigger">
                 <div class="switch">
-                    <input class="switch-input" id="switch_2" type="checkbox" name="switch_2">
+                    <input class="switch-input" id="switch_2" type="checkbox" name="switch_2" data-issue-type="large">
                     <label class="switch-paddle" for="switch_2">
                         <span class="show-for-sr">Activate</span>
                     </label>
@@ -103,6 +107,96 @@
                 <div class="switch">
                     <input class="switch-input" id="switch_3" type="checkbox" name="switch_3">
                     <label class="switch-paddle" for="switch_3">
+                        <span class="show-for-sr">Activate</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="phase-wrap phase-2">
+    <div class="phase-title-wrap">
+        <div class="row">
+            <div class="small-10 columns">
+                <h2>Next Phase</h2>
+            </div>
+            <div class="small-2 columns">
+                <p class="phase-trigger" data-phase="2">
+                    <i class="fa fa-angle-down"></i>
+                </p>
+            </div>
+        </div>
+    </div> 
+<div class="component-wrap required">
+    <div class="row">
+        <div class="small-10 columns">
+            <div class="component small">
+                <div class="title">Design</div> 
+            </div>
+        </div>
+        <div class="small-2 columns">
+            <div class="component-trigger">
+                <div class="switch">
+                    <input class="switch-input" id="switch_4" type="checkbox" name="switch_4">
+                    <label class="switch-paddle" for="switch_4">
+                        <span class="show-for-sr">Activate</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="component-wrap recom">
+    <div class="row">
+        <div class="small-10 columns">
+            <div class="component med client">
+                <div class="title">Branding</div> 
+            </div>
+        </div>
+        <div class="small-2 columns">
+            <div class="component-trigger">
+                <div class="switch">
+                    <input class="switch-input" id="switch_5" type="checkbox" name="switch_5">
+                    <label class="switch-paddle" for="switch_5">
+                        <span class="show-for-sr">Activate</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="component-wrap important">
+    <div class="row">
+        <div class="small-10 columns">
+            <div class="component large repeat">
+                <div class="title">Development</div> 
+            </div>
+        </div>
+        <div class="small-2 columns">
+            <div class="component-trigger">
+                <div class="switch">
+                    <input class="switch-input" id="switch_6" type="checkbox" name="switch_6">
+                    <label class="switch-paddle" for="switch_6">
+                        <span class="show-for-sr">Activate</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="component-wrap optional">
+    <div class="row">
+        <div class="small-10 columns">
+            <div class="component med">
+                <div class="title">Deployment</div> 
+            </div>
+        </div>
+        <div class="small-2 columns">
+            <div class="component-trigger">
+                <div class="switch">
+                    <input class="switch-input" id="switch_7" type="checkbox" name="switch_7">
+                    <label class="switch-paddle" for="switch_7">
                         <span class="show-for-sr">Activate</span>
                     </label>
                 </div>

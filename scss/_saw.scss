@@ -17,6 +17,12 @@
         } 
     }
 
+    .phase-trigger {
+        color: $white; 
+        font-size:2rem;
+        cursor: pointer;
+    }
+
     &.phase-1 {
         .phase-title-wrap {
             background: $phase-1; 
@@ -82,5 +88,50 @@
     }
     &.optional {
         background: $optional; 
+    }
+}
+
+.component {
+
+    .title {
+        position:relative; 
+        font-size: 2rem;
+    }
+
+    &.large {
+        .title {
+            &:after {
+                content: "\f013 \f013 \f013";
+                font-family: FontAwesome;
+                position: absolute;
+                z-index: 1;
+                right:2rem;
+                top: 0;
+            }
+        } 
+    }
+    &.med {
+        .title {
+            &:after {
+                content: "\f013 \f013";
+                font-family: FontAwesome;
+                position: absolute;
+                z-index: 1;
+                right:2rem;
+                top: 0;
+            }
+        } 
+    }
+    &.small {
+        .title {
+            &:after {
+                content: "\f013";
+                font-family: FontAwesome;
+                position: absolute;
+                z-index: 1;
+                right:2rem;
+                top: 0;
+            }
+        } 
     }
 }

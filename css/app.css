@@ -18,6 +18,11 @@
   .phase-wrap .phase-title-wrap h2 {
     color: #fefefe; }
 
+.phase-wrap .phase-trigger {
+  color: #fefefe;
+  font-size: 2rem;
+  cursor: pointer; }
+
 .phase-wrap.phase-1 .phase-title-wrap {
   background: #ED5565; }
 
@@ -59,6 +64,34 @@
     background: #F6BB42; }
   .component-wrap.optional {
     background: #FFCE54; }
+
+.component .title {
+  position: relative;
+  font-size: 2rem; }
+
+.component.large .title:after {
+  content: "\f013 \f013 \f013";
+  font-family: FontAwesome;
+  position: absolute;
+  z-index: 1;
+  right: 2rem;
+  top: 0; }
+
+.component.med .title:after {
+  content: "\f013 \f013";
+  font-family: FontAwesome;
+  position: absolute;
+  z-index: 1;
+  right: 2rem;
+  top: 0; }
+
+.component.small .title:after {
+  content: "\f013";
+  font-family: FontAwesome;
+  position: absolute;
+  z-index: 1;
+  right: 2rem;
+  top: 0; }
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
