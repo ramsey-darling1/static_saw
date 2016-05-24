@@ -93,6 +93,10 @@
   right: 2rem;
   top: 0; }
 
+.total-bid h3, .total-bid p {
+  background: rgba(254, 254, 254, 0.9);
+  padding: 0.5rem 1rem; }
+
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
    * 1. Set default font family to sans-serif.
